@@ -17,21 +17,44 @@
         android:minHeight="?attr/actionBarSize"
         android:background="@color/colorPrimary">
         <TextView
-            android:id="@+id/toolbar_title"
+            android:id="@+id/appname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/tittlefont"
             android:text="@string/app_name"
             android:textSize="22sp" />
     </android.support.v7.widget.Toolbar>
-<android.support.design.widget.BottomNavigationView
-    android:id="@+id/btm_nav"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    app:itemBackground="@color/colorNavigationIcon"
-    app:itemIconTint="@color/colorNavigationText"
-    app:itemTextColor="@color/colorNavigationText"
-    app:menu="@menu/bottomnavigation" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/picsdiary"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_login_activity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/frameLayout"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="-61dp"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/btn_register_activity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/frameLayout"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="-101dp"
+        android:text="@string/registrasi" />
 
 </RelativeLayout>
