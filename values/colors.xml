@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <color name="colorPrimary">#ffffff</color>
-<color name="colorPrimaryDark">#f7f7f7</color>
+<color name="colorPrimaryDark">#F7F7F7</color>
 <color name="colorAccent">#D81B60</color>
 
 <color name="colorNavigationIcon">#ffffff</color>
 <color name="colorNavigationText">#000000</color>
+    <color name="colorBox">#B6B6B6</color>
     </resources>

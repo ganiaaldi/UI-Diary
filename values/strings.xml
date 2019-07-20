@@ -26,4 +26,9 @@
     <string name="prompt_username">Username</string>
     <string name="prompt_phone">Phone</string>
     <string name="prompt_password_confirmation">Password Confirmation</string>
+    <string name="perintah_upload">Pilih Foto Yang Akan Di Upload</string>
+    <string name="upload_photo">Upload</string>
+    <string name="nama">Nama</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="caption">Caption</string>
 </resources>

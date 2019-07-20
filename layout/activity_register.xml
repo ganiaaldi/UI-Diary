@@ -57,7 +57,8 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="80dp">
+                android:layout_marginTop="80dp"
+                app:hintTextAppearance="@color/colorNavigationText">
 
                 <EditText
                     android:id="@+id/name"
@@ -73,7 +74,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                >
+                app:hintTextAppearance="@color/colorNavigationText">
 
                 <EditText
                     android:id="@+id/username"
@@ -88,6 +89,8 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:hintTextAppearance="@color/colorNavigationText"
+
                 >
 
                 <EditText
@@ -104,7 +107,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                >
+                app:hintTextAppearance="@color/colorNavigationText">
                 <AutoCompleteTextView
                     android:id="@+id/email"
                     android:layout_width="match_parent"
@@ -119,7 +122,8 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@color/colorNavigationText">
 
                 <EditText
                     android:id="@+id/password"
@@ -137,7 +141,8 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@color/colorNavigationText">
 
                 <EditText
                     android:id="@+id/password_confirmation"
@@ -149,7 +154,8 @@
                     android:imeOptions="actionUnspecified"
                     android:inputType="text"
                     android:maxLines="1"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    />
 
             </android.support.design.widget.TextInputLayout>
 
